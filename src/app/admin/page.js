@@ -9,7 +9,7 @@ import {
   Plus, Trash2, Edit3, Shield, ChevronDown, ChevronUp,
   TrendingUp, Calendar
 } from 'lucide-react';
-import { formatCurrency, formatDate, generateRandomDraw, generateAlgorithmicDraw, calculatePrizePools } from '@/lib/utils';
+import { formatCurrency, formatDate, generateRandomDraw, generateAlgorithmicDraw, calculatePrizePools } from '../../lib/utils';
 import Navbar from '../../components/Navbar';
 
 export default function AdminPage() {
