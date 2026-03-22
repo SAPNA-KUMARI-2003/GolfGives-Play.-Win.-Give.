@@ -1,7 +1,7 @@
 'use client';
 import { useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { createClient } from '../../lib/supabase';
+import { createClient } from '../../../lib/supabase';
 import toast from 'react-hot-toast';
 import { CheckCircle, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
