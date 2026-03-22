@@ -10,7 +10,7 @@ import {
   TrendingUp, Calendar
 } from 'lucide-react';
 import { formatCurrency, formatDate, generateRandomDraw, generateAlgorithmicDraw, calculatePrizePools } from '@/lib/utils';
-import Navbar from '@/components/Navbar';
+import Navbar from '../../components/Navbar';
 
 export default function AdminPage() {
   const supabase = createClient();
