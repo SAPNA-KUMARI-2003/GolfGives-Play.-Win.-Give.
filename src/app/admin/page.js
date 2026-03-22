@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
-import { createClient } from '../lib/supabaseServer';
+import { createClient } from '../../lib/supabase';
 import toast from 'react-hot-toast';
 import {
   Users, Trophy, Heart, BarChart2, Settings, Play, Eye,
@@ -9,7 +9,8 @@ import {
   Plus, Trash2, Edit3, Shield, ChevronDown, ChevronUp,
   TrendingUp, Calendar
 } from 'lucide-react';
-import { formatCurrency, formatDate, generateRandomDraw, generateAlgorithmicDraw, calculatePrizePools } from '../../lib/utils';
+import { formatCurrency, formatDate, generateRandomDraw, generateAlgorithmicDraw } from '../../lib/utils';
+import { calculatePrizePools } from '../../lib/stripe';
 import Navbar from '../../components/Navbar';
 
 export default function AdminPage() {

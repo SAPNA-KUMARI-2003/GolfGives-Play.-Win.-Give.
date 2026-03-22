@@ -1,4 +1,4 @@
-import { createClient, createServiceClient } from '../../../lib/supabaseServer';
+import { createClient, createServiceClient } from '../../../../lib/supabaseServer';
 import { NextResponse } from 'next/server';
 
 // Update winner status (admin) or upload proof (user)

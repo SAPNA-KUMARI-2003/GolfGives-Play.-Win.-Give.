@@ -1,5 +1,5 @@
-import { stripe } from '../../../lib/stripe';
-import { createServiceClient } from '../../../lib/supabaseServer';
+import { stripe } from '../../../../lib/stripe';
+import { createServiceClient } from '../../../../lib/supabaseServer';
 import { NextResponse } from 'next/server';
 
 export async function POST(req) {

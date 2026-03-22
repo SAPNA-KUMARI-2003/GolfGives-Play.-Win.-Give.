@@ -1,5 +1,6 @@
 import { createClient, createServiceClient } from '../../../lib/supabaseServer';
-import { generateRandomDraw, generateAlgorithmicDraw, calculatePrizePools } from '../../../lib/utils';
+import { generateRandomDraw, generateAlgorithmicDraw } from '../../../lib/utils';
+import { calculatePrizePools } from '../../../lib/stripe';
 import { NextResponse } from 'next/server';
 
 // Admin: simulate or publish a draw
